@@ -1,30 +1,22 @@
-# React + TypeScript + Vite
+# Project Title: E2E Testing with Cypress
+This project is designed as a learning tool for End-to-End (E2E) testing using the Cypress framework. We have developed a simple application that adds and removes users from a list, which serves as the foundation for executing our tests.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About The Project
+The primary objective of this project is to gain a deeper understanding of E2E testing methodologies using Cypress. The application built for this purpose is straightforward; it allows users to add or remove names from a list.
 
-Currently, two official plugins are available:
+## Built With
+This project was created using the following technologies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- TypeScript
+- Cypress
 
-## Expanding the ESLint configuration
+## Getting Started
+To get a local copy up and running, follow these steps:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1 - Clone the repo
+2 - Install NPM packages
+`npm install`
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3 - Run the tests
+`npx cypress` open OR `npm run cy:open` OR `npm run cy:run`
