@@ -19,4 +19,4 @@ To get a local copy up and running, follow these steps:
 `npm install`
 
 3. Run the tests
-`npx cypress` open OR `npm run cy:open` OR `npm run cy:run`
+`npx cypress open` OR `npm run cy:open` OR `npm run cy:run`
