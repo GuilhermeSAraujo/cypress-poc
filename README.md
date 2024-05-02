@@ -14,9 +14,9 @@ This project was created using the following technologies:
 ## Getting Started
 To get a local copy up and running, follow these steps:
 
-1 - Clone the repo
-2 - Install NPM packages
+1. Clone the repo
+2. Install NPM packages
 `npm install`
 
-3 - Run the tests
+3. Run the tests
 `npx cypress` open OR `npm run cy:open` OR `npm run cy:run`
